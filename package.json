@@ -1,0 +1,22 @@
+{
+  "name": "ssh-dev-scripts",
+  "version": "1.0.0",
+  "description": "A set of scripts and utilities to make setting up a consistent npm project easier",
+  "scripts": {
+    "build": "echo \"There is no build script for the dev scripts 😉\"",
+    "validate": "prettier --ignore-path .gitignore --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSHari/ssh-dev-scripts.git"
+  },
+  "publishConfig": {
+    "tag": "latest"
+  },
+  "author": "Sai Hari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SSHari/ssh-dev-scripts/issues"
+  },
+  "homepage": "https://github.com/SSHari/ssh-dev-scripts#readme"
+}

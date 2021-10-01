@@ -4,6 +4,7 @@
   "description": "A set of scripts and utilities to make setting up a consistent npm project easier",
   "scripts": {
     "build": "echo \"There is no build script for the dev scripts 😉\"",
+    "format": "prettier --ignore-path .gitignore --write .",
     "validate": "prettier --ignore-path .gitignore --check ."
   },
   "repository": {

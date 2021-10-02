@@ -18,6 +18,8 @@ jobs:
           node-version: '14.17'
       - name: Install dependencies
         run: npm ci
+      - name: Validate
+        run: npm run validate
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -2,6 +2,9 @@
   "name": "ssh-dev-scripts",
   "version": "1.0.0",
   "description": "A set of scripts and utilities to make setting up a consistent npm project easier",
+  "files": [
+    "src"
+  ],
   "scripts": {
     "build": "echo \"There is no build script for the dev scripts 😉\"",
     "format": "prettier --ignore-path .gitignore --write .",

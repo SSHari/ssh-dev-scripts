@@ -1,6 +1,6 @@
 {
   "name": "ssh-dev-scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of scripts and utilities to make setting up a consistent npm project easier",
   "files": [
     "src"

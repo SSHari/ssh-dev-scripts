@@ -5,7 +5,7 @@ module.exports = {
     '@semantic-release/release-notes-generator',
     ['@semantic-release/npm', { npmPublish: true }],
     [
-      '@semantic-release/gitlab',
+      '@semantic-release/github',
       {
         assets: ['package.json', 'package-lock.json'],
       },
